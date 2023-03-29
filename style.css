@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(224, 193, 231);
+ }
+  
+  h1 {
+    text-align: center;
+    color: rgb(224, 193, 231);;
+  }
+  
+  h2 {
+    text-align: center;
+    color: rgb(139, 197, 224);
+  }
+  .container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+  }
+  
+  .search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    padding: 15px 10px;
+    outline: none;
+    width: 80%;
+    border-radius: 15px;
+    border-color: rgb(173, 173, 173);
+  }
+  
+  .li-container {
+    background-color: white;
+    width: 100%;
+    color: darkslategray;
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  #lista li {
+    list-style: none;
+    background-color: rgb(236, 234, 234);
+    border-radius: 15px;
+    margin-top: 15px;
+    display: flex;
+  }
+  
+  #lista li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #e31743;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    outline: none;
+    width: 10%;
+    font-size: 1em;
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: #e3174346;
+  }
+  
+  .btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: rgb(20, 202, 29);
+    font-size: 1.4rem;
+    outline: none;
+    border-radius: 50px;
+  }
+  
+  .btn-add:hover {
+    cursor: pointer;
+    background-color: rgba(20, 202, 29, 0.247)
+  }
+  
+  .empty {
+    color: darkslategrey;
+  }
+  
+  .btn-histo {
+    margin-left: auto;
+    border: none;
+    background-color: rgb(139, 197, 224);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    outline: none;
+    width: auto;
+    font-size: 0.5em;
+  }
+  #ulhisto li {
+    list-style: none;
+    background-color: rgb(236, 234, 234);
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  #ulhisto li p {
+    margin: 0;
+    padding: 1px;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+
+footer {
+  color: rgb(105, 15, 117);
+  padding: 15px;
+  text-align: center;
+}

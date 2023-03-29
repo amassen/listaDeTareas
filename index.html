@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+        <div class="tareasList">
+            <form>
+                <input type="text" placeholder="Agregá tu tarea">
+                <button class="btn-add">+</button>
+            </form>            
+        </div>
+        <div class="li-container">
+            <ul id="lista"></ul>
+        </div>
+        <div class="empty">
+            <p>No tiene tareas pendientes</p>
+        </div>
+    </div>
+    
+    <div class="container" id="historial">
+        <h2>Histórico de tareas</p>
+        <button class="btn-histo" onclick="verOcultar()">Ver/Ocultar</button>
+        <div id="ulhisto">
+        <ul class="ul-histo"></ul>    
+        </div>    
+    </div>
+
+    <footer>
+        <div>
+            <p>✿ Hecho por Adriana Massenzano ✿</p>
+        </div>        
+    </footer>
+    
+    <script src="main.js"></script>
+
+</body>
+</html>
